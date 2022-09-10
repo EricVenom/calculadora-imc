@@ -39,7 +39,12 @@ function calcularImc() {
         inseridoNoHtml.innerHTML = msg + " classificado como obesidade grau I"
     } else if (imcValor <= 39.9 && imcValor >= 35) {
         inseridoNoHtml.innerHTML = msg + " classificado como obesidade grau II"
+    } else if (imcValor >= 40 && isFinite(imcValor) === true) {
+        inseridoNoHtml.innerHTML = msg + " classificado como obesidade grau III"
+    } else if (imcValor === NaN || isFinite(imcValor) === false) {
+        inseridoNoHtml.innerHTML = "Preencha os campos corretamente!"
+    } else {
+        inseridoNoHtml.innerHTML = "Preencha os campos corretamente!"
     }
-    else { inseridoNoHtml.innerHTML = msg + " classificado como obesidade grau III" }
 
 }
