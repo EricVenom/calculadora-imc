@@ -1,7 +1,7 @@
 body {
     font-family: "Roboto Mono", monospace;
     min-height: 400px;
-    background-color: antiquewhite;
+    background-color: blueviolet;
 }
 
 .container {
@@ -10,17 +10,17 @@ body {
 }
 
 .page-title {
-    color: darkolivegreen;
+    color: azure;
     margin: 0 0 5px;
 }
 
 .page-subtitle {
-    color: darkolivegreen;
+    color: azure;
     margin-top: 5px;
 }
 
 h2 {
-    color: darkolivegreen;
+    color: azure;
     margin-top: 20px;
 }
 
@@ -31,7 +31,7 @@ h2 {
 }
 
 label {
-    color: darkolivegreen;
+    color: azure;
 }
 
 input {
@@ -44,7 +44,7 @@ button {
     margin-top: 12px;
     padding: 4px 8px;
     border-radius: 10px;
-    background: darkolivegreen;
-    color: antiquewhite;
+    background: azure;
+    color: blueviolet;
     font-family: "Roboto Mono", monospace;
 }
